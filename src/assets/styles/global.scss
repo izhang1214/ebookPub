@@ -1,0 +1,10 @@
+@import "./reset";
+@import "./mixin";
+@import "./flapCard";
+@import "./home";
+
+// 设置 px转换 rem的方法；
+$ratio: 375 / 10;
+@function px2rem($px){
+    @return $px / $ratio + rem;
+}
